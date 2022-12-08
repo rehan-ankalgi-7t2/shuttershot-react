@@ -1,0 +1,28 @@
+.App {
+  padding: 0px 40px;
+}
+
+.container {
+  padding: 40px 0px;
+  width: 100%;
+  column-count: 4;
+  column-gap: 24px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 950px) {
+  .container {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    column-count: 1;
+  }
+}
