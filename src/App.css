@@ -1,10 +1,18 @@
 .App {
-  padding: 0px 40px;
+  top: 0;
+  left: 0;
+  height: fit-content;
+  width: 100%;
 }
 
 .container {
-  padding: 40px 0px;
+  padding: 40px;
+  box-sizing: border-box;
   width: 100%;
+  /* display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap; */
   column-count: 4;
   column-gap: 24px;
 }

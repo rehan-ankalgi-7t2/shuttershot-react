@@ -11,6 +11,7 @@ body {
   color: white;
   background-image: url(./assets/annie-spratt-osuiatBDTww-unsplash.jpg);
   background-size: cover;
+  width: 100vw;
   background-blend-mode: hard-light;
 }
 
